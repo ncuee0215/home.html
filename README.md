@@ -8,13 +8,8 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-## Welcome to NCU EE Lab
 
-You can use the [editor on GitHub](https://github.com/ncuee0215/home.html/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-Syntax highlighted code blue
 
 # Header 1
 ## Header 2
