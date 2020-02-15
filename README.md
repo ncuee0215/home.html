@@ -1,5 +1,5 @@
 
-<!DOCTYPE HTML>
+<!--DOCTYPE HTML-->
 <!-- Website Template by freewebsitetemplates.com -->
 <html>
 <head>
