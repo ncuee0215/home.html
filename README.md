@@ -27,25 +27,25 @@ a:hover {color: blue;}
 		<a href="home.html" class="logo"><img src="images/logo.png" alt=""></a>
 		<ul>
 			<li class="selected">
-				<a href="home.html">首頁</a>
+			   <a href="home.html">首頁</a>
 			</li>
 			<li>
-				<a href="about.html">簡介</a>
+			    <a href="about.html">簡介</a>
 			</li>
 			<li>
-				<a href="member.html">研究群</a>
+			    <a href="member.html">研究群</a>
 			</li>
 			<li>
-				<a href="direction.html">研究方向</a>
+			    <a href="direction.html">研究方向</a>
 			</li>
 			<li>
-				<a href="research.html">研究貢獻</a>
+			     <a href="research.html">研究貢獻</a>
 			</li>
 			<li>
-				<a href="access.html">位置</a>
+		             <a href="access.html">位置</a>
 			</li>
 			<li>
-				<a href="active.html">活動</a>
+			     <a href="active.html">活動</a>
 			</li>
 		</ul>
 	</div>
