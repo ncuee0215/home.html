@@ -1,3 +1,13 @@
+
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>首頁 - 前瞻元件與技術實驗室</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
 ## Welcome to NCU EE Lab
 
 You can use the [editor on GitHub](https://github.com/ncuee0215/home.html/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
