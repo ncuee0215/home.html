@@ -1,3 +1,14 @@
+<body>
+      <div id="header_wrap"\ class="outer">
+	<header class="inner">
+	  <a id="forkme_banner"	href="home.html"
+	     <h1 id="project_title"> NCU EE</h1>
+       <header>
+     <div>
+
+
+
+
 
 <!--DOCTYPE HTML-->
 <!-- Website Template by freewebsitetemplates.com -->
