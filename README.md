@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>首頁 - 前瞻元件與技術實驗室</title>
+	<title>首頁 - NUU EE 實驗室</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <style>
