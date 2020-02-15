@@ -12,7 +12,7 @@ img.p{
 	display:blue;
 	margin:auto;
 }
-a{color : black;}
+a{color : blue;}
 a:hover {color: blue;}
 .mySlides {
 	position:relative;
