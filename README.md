@@ -10,7 +10,7 @@
 <style>
 p.news{line-height:20px;}
 img.p{
-	display:block;
+	display:blue;
 	margin:auto;
 }
 a{color : black;}
