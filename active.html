@@ -1,0 +1,536 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>活動 -NCU EE 實驗室</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+<script type="text/javascript" src="fancybox/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<style>
+button{
+	margin:8px;
+	background-color:#337ab7;
+	border-color:#2e6da4;
+	color:white;
+	border-style:solid;
+	border-width:1px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding:6px 12px 6px 12px;
+	cursor: pointer;
+	font-size:20px;
+	border-radius:10px;
+}
+button:hover{background-color:#2e6da4;}
+</style>
+
+</head>
+
+<body>
+	<div id="header">
+		<div class='language'>中文 / <a class='language'href='en_active.html'>English</a></div>	
+		<a href="Lab.html" class="logo"><img src="nculogo-1.png" alt=""></a>
+		<ul>
+			<li>
+				<a href="Lab.html">首頁</a>
+			</li>
+			<li>
+				<a href="about.html">簡介</a>
+			</li>
+			<li>
+				<a href="member.html">研究群</a>
+			</li>
+			<li>
+				<a href="direction.html">研究方向</a>
+			</li>
+			<li>
+				<a href="research.html">研究貢獻</a>
+			</li>
+			<li>
+				<a href="access.html">位置</a>
+			</li>
+			<li class="selected">
+				<a href="active.html">活動</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<ul>
+			<li>
+			<div style="text-align: center;margin-bottom: 20px;border-bottom: 3px solid green;">
+				<h3 style='font-weight:bold;font-family:cursive;text-shadow:3px 3px 3px #cccccc;font-size:50px;'>Gallary</h3>
+			</div>
+			<div>
+				<h1>相簿主題:</h1>
+<!--	     	<button id='2019 Shimenshan' onclick='show(9)'>2019 石門山秋遊 </button>
+				<button id='2018 Tail' onclick='show(8)'>2018 尾牙 </button>
+				<button id='2018BBQ' onclick='show(7)'>2018 中秋烤肉 </button>
+				<button id='lion mountain' onclick='show(6)'>2018 獅頭山春遊 </button>
+				<button id='graduate photo' onclick='show(5)'>2018 畢業照團拍 </button>
+				<button id='Free-form meeting' onclick='show(4)'>2018 自由型會議 </button>
+				<button id='2017RRAMShortcourses' onclick='show(3)'>2017 RRAM Short courses</button>
+				<button id='2017bbq' onclick='show(2)'>2017中秋烤肉</button>
+				<button id='farewell' onclick='show(1)'>2017送舊</button>
+				<button id='mountain' onclick='show(0)'>2016飛鳳山出遊</button>
+				
+				
+					</div>
+			<div id='album9' style='text-align:center; margin-top:40px;'>
+				<a  class='album9' rel="fancybox-thumb" href='images/images/2019 Shimenshan/001.jpg'title=''>
+					<img src="images/2019 Shimenshan/001.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/002.jpg'title=''>
+					<img src="images/2019 Shimenshan/002.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/003.jpg'title=''>
+					<img src="images/2019 Shimenshan/003.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/004.jpg'title=''>
+					<img src="images/2019 Shimenshan/004.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/005.jpg'title=''>
+					<img src="images/2019 Shimenshan/005.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/006.jpg'title=''>
+					<img src="images/2019 Shimenshan/006.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/007.jpg'title=''>
+					<img src="images/2019 Shimenshan/007.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/008.jpg'title=''>
+					<img src="images/2019 Shimenshan/008.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/009.jpg'title=''>
+					<img src="images/2019 Shimenshan/009.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/010.jpg'title=''>
+					<img src="images/2019 Shimenshan/010.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/011.jpg'title=''>
+					<img src="images/2019 Shimenshan/011.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/012.jpg'title=''>
+					<img src="images/2019 Shimenshan/012.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/013.jpg'title=''>
+					<img src="images/2019 Shimenshan/013.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/014.jpg'title=''>
+					<img src="images/2019 Shimenshan/014.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/015.jpg'title=''>
+					<img src="images/2019 Shimenshan/015.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/016.jpg'title=''>
+					<img src="images/2019 Shimenshan/016.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/017.jpg'title=''>
+					<img src="images/2019 Shimenshan/017.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/018.jpg'title=''>
+					<img src="images/2019 Shimenshan/018.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/019.jpg'title=''>
+					<img src="images/2019 Shimenshan/019.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/020.jpg'title=''>
+					<img src="images/2019 Shimenshan/020.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/021jpg'title=''>
+					<img src="images/2019 Shimenshan/021.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/022.jpg'title=''>
+					<img src="images/2019 Shimenshan/022.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/023.jpg'title=''>
+					<img src="images/2019 Shimenshan/023.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/024.jpg'title=''>
+					<img src="images/2019 Shimenshan/024.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/025.jpg'title=''>
+					<img src="images/2019 Shimenshan/025.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/026.jpg'title=''>
+					<img src="images/2019 Shimenshan/026.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/027.jpg'title=''>
+					<img src="images/2019 Shimenshan/027.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/028.jpg'title=''>
+					<img src="images/2019 Shimenshan/028.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/029.jpg'title=''>
+					<img src="images/2019 Shimenshan/029.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/030.jpg'title=''>
+					<img src="images/2019 Shimenshan/030.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/031.jpg'title=''>
+					<img src="images/2019 Shimenshan/031.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album9' rel="fancybox-thumb" href='images/2019 Shimenshan/032.jpg'title=''>
+					<img src="images/2019 Shimenshan/032.jpg" style='height:250px;'alt="" />
+				</a>
+				
+				
+				
+				</div>
+			<div id='album8' style='text-align:center; margin-top:40px;display:none;'>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/1.jpg'title=''>
+					<img src="images/2018 Tail/1.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/2.jpg'title=''>
+					<img src="images/2018 Tail/2.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/3.jpg'title=''>
+					<img src="images/2018 Tail/3.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/4.jpg'title=''>
+					<img src="images/2018 Tail/4.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/5.jpg'title=''>
+					<img src="images/2018 Tail/5.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/6.jpg'title=''>
+					<img src="images/2018 Tail/6.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/7.jpg'title=''>
+					<img src="images/2018 Tail/7.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album8' rel="fancybox-thumb" href='images/2018 Tail/8.jpg'title=''>
+					<img src="images/2018 Tail/8.jpg" style='height:250px;'alt="" />
+				</a>
+				
+				
+				
+				
+				</div>
+			<div id='album7' style='text-align:center; margin-top:40px;display:none'>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/01.jpg'title=''>
+					<img src="images/2018BBQ/01.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/02.jpg'title=''>
+					<img src="images/2018BBQ/02.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/03.jpg'title=''>
+					<img src="images/2018BBQ/03.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/04.jpg'title=''>
+					<img src="images/2018BBQ/04.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/05.jpg'title=''>
+					<img src="images/2018BBQ/05.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/06.jpg'title=''>
+					<img src="images/2018BBQ/06.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/07.jpg'title=''>
+					<img src="images/2018BBQ/07.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/08.jpg'title=''>
+					<img src="images/2018BBQ/08.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album7' rel="fancybox-thumb" href='images/2018BBQ/09.jpg'title=''>
+					<img src="images/2018BBQ/09.jpg" style='height:250px;'alt="" />
+				</a>
+				
+				
+				
+				
+				
+				
+				
+				</div>
+			<div id='album6' style='text-align:center; margin-top:40px;display:none'>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 1.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 1.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 2.jpg'title=' '>
+					<img src="images/lion mountain/獅頭山 2.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 3.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 3.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 4.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 4.jpg" style='height:250px;'alt="" />
+				</a>
+				
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 6.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 6.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 7.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 7.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 8.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 8.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album6' rel="fancybox-thumb" href='images/lion mountain/獅頭山 9.jpg'title=''>
+					<img src="images/lion mountain/獅頭山 9.jpg" style='height:250px;'alt="" />
+				</a>
+				</div>
+			<div id='album5' style='text-align:center; margin-top:40px;display:none'>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍1.jpg'title=''>
+					<img src="images/graduate photo/畢業團拍1.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍2.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍2.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍3.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍3.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍4.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍4.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍5.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍5.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍6.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍6.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍7.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍7.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍8.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍8.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍9.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍9.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍10.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍10.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album5' rel="fancybox-thumb" href='images/graduate photo/畢業團拍11.JPG'title=' '>
+					<img src="images/graduate photo/畢業團拍11.JPG" style='height:250px;' alt="" />
+				</a>
+				</div>
+			<div id='album4' style='text-align:center; margin-top:40px;display:none'>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 1.JPG'title=''>
+					<img src="images/Free-form meeting/自由型會議 1.JPG" style='height:250px;'alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 2.JPG'title=' '>
+					<img src="images/Free-form meeting/自由型會議 2.JPG" style='height:250px;' alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 3.jpg'title=' '>
+					<img src="images/Free-form meeting/自由型會議 3.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 4.jpg'title=' '>
+					<img src="images/Free-form meeting/自由型會議 4.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 5.jpg'title=' '>
+					<img src="images/Free-form meeting/自由型會議 5.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 6.jpg'title=' '>
+					<img src="images/Free-form meeting/自由型會議 6.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 7.jpg'title=' '>
+					<img src="images/Free-form meeting/自由型會議 7.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album4' rel="fancybox-thumb" href='images/Free-form meeting/自由型會議 8.jpg'title=' '>
+					<img src="images/Free-form meeting/自由型會議 8.jpg" style='height:250px;' alt="" />
+				</a>
+			</div>
+				
+			<div id='album3' style='text-align:center; margin-top:40px;display:none'>
+				<a  class='album3' rel="fancybox-thumb" href='images/2017RRAMShortcourses/01.jpg'title=''>
+					<img src="images/2017RRAMShortcourses/01.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album3' rel="fancybox-thumb" href='images/2017RRAMShortcourses/02.jpg'title=' '>
+					<img src="images/2017RRAMShortcourses/02.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album3' rel="fancybox-thumb" href='images/2017RRAMShortcourses/03.jpg'title=' '>
+					<img src="images/2017RRAMShortcourses/03.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album3' rel="fancybox-thumb" href='images/2017RRAMShortcourses/04.jpg'title=' '>
+					<img src="images/2017RRAMShortcourses/04.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album3' rel="fancybox-thumb" href='images/2017RRAMShortcourses/05.jpg'title=' '>
+					<img src="images/2017RRAMShortcourses/05.jpg" style='height:250px;' alt="" />
+				</a>
+			</div>
+			
+			<div id='album2' style='text-align:center; margin-top:40px;display:none'>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/01.jpg'title=''>
+					<img src="images/2017BBQ/01.jpg" style='height:250px;'alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/02.jpg'title=' '>
+					<img src="images/2017BBQ/02.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/03.jpg'title=' '>
+					<img src="images/2017BBQ/03.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/04.jpg'title=' '>
+					<img src="images/2017BBQ/04.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/05.jpg'title=' '>
+					<img src="images/2017BBQ/05.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/06.jpg'title=' '>
+					<img src="images/2017BBQ/06.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/07.jpg'title=' '>
+					<img src="images/2017BBQ/07.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/08.jpg'title=' '>
+					<img src="images/2017BBQ/08.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/09.jpg'title=' '>
+					<img src="images/2017BBQ/09.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/10.jpg'title=' '>
+					<img src="images/2017BBQ/10.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/11.jpg'title=' '>
+					<img src="images/2017BBQ/11.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/12.jpg'title=' '>
+					<img src="images/2017BBQ/12.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/13.jpg'title=''>
+					<img src="images/2017BBQ/13.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/14.jpg'title=''>
+					<img src="images/2017BBQ/14.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/15.jpg'title=''>
+					<img src="images/2017BBQ/15.jpg" style='height:250px;' alt="" />
+				</a>
+				<a class='album2' rel="fancybox-thumb" href='images/2017BBQ/16.jpg'title=''>
+					<img src="images/2017BBQ/16.jpg" style='height:250px;' alt="" />
+				</a>
+			</div>
+				
+			<div id='album1' style='text-align:center; margin-top:40px;display:none;'>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/01.jpg'title=''>
+					<img src="images/farewell/01.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/02.jpg'title=' '>
+					<img src="images/farewell/02.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/03.jpg'title=' '>
+					<img src="images/farewell/03.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/04.jpg'title=' '>
+					<img src="images/farewell/04.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/05.jpg'title=' '>
+					<img src="images/farewell/05.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/06.jpg'title=' '>
+					<img src="images/farewell/06.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/07.jpg'title=' '>
+					<img src="images/farewell/07.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/08.jpg'title=' '>
+					<img src="images/farewell/08.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album1' rel="fancybox-thumb" href='images/farewell/09.jpg'title=' '>
+					<img src="images/farewell/09.jpg" style='height:250px;' alt="" />
+				</a>
+			</div>
+			
+			
+			<div id='album0' style='text-align:center; margin-top:40px;display:none;'>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/01.jpg'title=''>
+					<img src="images/mountain/01.jpg" style='height:250px;'alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/02.jpg'title=' '>
+					<img src="images/mountain/02.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/03.jpg'title=' '>
+					<img src="images/mountain/03.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/04.jpg'title=' '>
+					<img src="images/mountain/04.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/05.jpg'title=' '>
+					<img src="images/mountain/05.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/06.jpg'title=' '>
+					<img src="images/mountain/06.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/07.jpg'title=' '>
+					<img src="images/mountain/07.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/08.jpg'title=' '>
+					<img src="images/mountain/08.jpg" style='height:250px;' alt="" />
+				</a>
+				<a  class='album0' rel="fancybox-thumb" href='images/mountain/09.jpg'title=' '>
+					<img src="images/mountain/09.jpg" style='height:250px;' alt="" />
+				</a>
+			</div>
+		
+
+	<script>
+		var id=[9,8,7,6,5,4,3,2,1,0]
+		
+		$(document).ready(function() {	
+			$('.album'+id[0]).fancybox({
+				prevEffect	: 'none',
+				nextEffect	: 'none',
+				helpers		: {
+					title	: { type : 'inside' },
+					buttons	: {},
+				thumbs	: {
+						width	: 50,
+						height	: 50
+					},
+				},
+			});		
+		});
+		
+		function show(n){
+		for ( i = 0; i < id.length; i++) {
+			if (id[i]==n) {
+				document.getElementById('album'+id[i]).style.display='block' ;
+				$('.album'+n).fancybox({
+					prevEffect	: 'none',
+					nextEffect	: 'none',
+					helpers		: {
+						title	: { type : 'inside' },
+						buttons	: {},
+					thumbs	: {
+							width	: 50,
+							height	: 50
+						},
+					},
+				});
+				
+			}
+			else {
+				document.getElementById('album'+id[i]).style.display='none' ;						
+				}
+		}
+	}
+	</script>
+		
+	</div>
+	<div id="footer">
+		<div>
+			<p>
+				<img src='images/IEEE.jpg'style='height:15px;margin:0 4px 0 0;'>
+				<a href='https://www.facebook.com/edsNCTUXNTHU/'target="_blank">IEEE Electron Device Society Taipei section 清交學生分會</a>
+			</p>
+		</div>
+	</div>
+  -->
+</body>
+</html>
