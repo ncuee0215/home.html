@@ -62,13 +62,13 @@ a:hover {color: blue;}
 					<p class='news'>	
 					
 							“實驗室招生中!
-							
+				</p><hr>			
 					
 					
 					<p style='text-align:right'>
 						<a href='Lab.html' STYLE="text-decoration:none;">read more</a>
 					</p>
-				  </p><hr>
+				  
 				
 				<div>
 
@@ -88,7 +88,22 @@ a:hover {color: blue;}
 					<img src="images/science02.jpg" style="height:500px">
 			
 				 -->
-				
+				<script type="text/javascript">
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 10000); // setTimeout(function,t(ms))
+				}
+			</script>	
 				
 				
 				
