@@ -113,7 +113,7 @@
 				</div>
 				</li>
 						
-				<li><a onmouseover='visible(0)'>黃驛翔&emsp;&emsp;(2020年/9月 入學)</a>
+				<li><a onmouseover='visible(4)'>黃驛翔&emsp;&emsp;(2020年/9月 入學)</a>
 				<div id="m0" style="display:none">
 				<img src="YELLOW2.jpg"  style="float:left;padding-right:50px;">
 				<div>從哪個縣/市來的:　新北市</div><p>
@@ -124,7 +124,7 @@
 				</div>
 				</li>
 					
-				<li><a onmouseover='visible(0)'>黃柏雄&emsp;&emsp;(2020年/9月 入學)</a>
+				<li><a onmouseover='visible(5)'>黃柏雄&emsp;&emsp;(2020年/9月 入學)</a>
 				<div id="m0" style="display:none">
 				<img src="YELLOW3.jpg"  style="float:left;padding-right:50px;">
 				<div>從哪個縣/市來的:　新竹縣</div><p>
@@ -135,11 +135,25 @@
 				</li>
 
 				
-	            </ul>
+	            		</ul>
 				</div>
-			</li>
-			<li>
-           
+				</li>
+				<li>
+           			<script>	
+				function visible(n) {
+				var id,i ;	
+				id=[0,1,2,3,4,5];	
+				for (i = 0; i < id.length; i++) {
+				if (id[i]==n) {
+				document.getElementById('m'+id[i]).style.display='block' ;
+				}
+				else {
+				document.getElementById('m'+id[i]).style.display='none' ;
+				}
+				};
+				}
+				</script>
+
 
 	
 </body>
