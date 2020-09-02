@@ -68,9 +68,10 @@ a:hover {color: #006030;}
 
 
                     </p><hr>
-                    <p class='news'>
-
-                        <a href= "海報1.png">祝賀!謝易叡助理教授實驗室團隊榮獲國際元件可靠度與物理會議論壇的最佳海報會議論文獎</a> <br>
+                    <p class='news'> 
+			<li><a onmouseover='visible(0)'>"祝賀!謝易叡助理教授實驗室團隊榮獲國際元件可靠度與物理會議論壇的最佳海報會議論文獎"</a>
+			<div id="m0" style="display:none">
+			<img src="海報1.png" alt="" style='width:900px;'>
 			“實驗室招生中!
                     </p><hr>
 
@@ -99,7 +100,20 @@ a:hover {color: #006030;}
         <img src="images/science02.jpg" style="height:500px">
 
      -->
-
+<script>	
+function visible(n) {
+	var id,i ;	
+	id=[0];	
+	for (i = 0; i < id.length; i++) {
+		if (id[i]==n) {
+			document.getElementById('m'+id[i]).style.display='block' ;
+		}
+		else {
+			document.getElementById('m'+id[i]).style.display='none' ;
+		}
+	};
+}
+</script>
 
 
 
