@@ -74,17 +74,17 @@ a:hover {color: #006030;}
 			<img src="海報1.png" alt="" style='width:900px;'>
 			<br clear="all">
 			</div>
-			<a onmouseover='visible(0)'>"祝賀!謝易叡助理教授獲得2021 「TSIA 半導體獎」"</a>
+			<a onmouseover='visible(1)'>"祝賀!謝易叡助理教授獲得2021 「TSIA 半導體獎」"</a>
 			<div id="m1" style="display:none">
 			<img src="TSIA半導體獎.jpg" alt="" style='width:900px;'>
 			<br clear="all">
 			</div>
-			<a onmouseover='visible(0)'>"Electron Device Letters(EDL)被獲選為Editors pick"</a>
+			<a onmouseover='visible(2)'>"Electron Device Letters(EDL)被獲選為Editors pick"</a>
 			<div id="m2" style="display:none">
 			<img src="editorspick.png" alt="" style='width:900px;'>
 			<br clear="all">
 			</div>
-			<a onmouseover='visible(1)'>“實驗室招生中!</a>
+			<a onmouseover='visible(3)'>“實驗室招生中!</a>
 			<!-------<div id="m0" style="display:none">
 			 <img src="Lab海報.GIF" alt="" style='width:900px;'>
 			<br clear="all">
@@ -123,7 +123,7 @@ a:hover {color: #006030;}
 <script>	
 function visible(n) {
 	var id,i ;	
-	id=[0,1,2];	
+	id=[0,1,2,3];	
 	for (i = 0; i < id.length; i++) {
 		if (id[i]==n) {
 			document.getElementById('m'+id[i]).style.display='block' ;
